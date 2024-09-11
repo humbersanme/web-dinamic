@@ -2,29 +2,14 @@ body.lb-disable-scrolling {
   overflow: hidden;
 }
 
-.lightboxOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  background-color: black;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  display: none;
+ntent: "";
+  display: table;
+  clear: both;
 }
 
-.lightbox {
+.lb-loader {
   position: absolute;
-  left: 0;
-  width: 100%;
-  z-index: 10000;
-  text-align: center;
-  line-height: 0;
-  font-weight: normal;
-  outline: none;
-}
-
-.lightbox .lb-image {
+  top: 43%;
   display: block;
   height: auto;
   max-width: inherit;
@@ -104,8 +89,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../images/prev.png) left 48% no-repeat;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  background: url(../
   opacity: 0;
   -webkit-transition: opacity 0.6s;
   -moz-transition: opacity 0.6s;
@@ -124,7 +108,15 @@ body.lb-disable-scrolling {
   float: right;
   background: url(../images/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;  width: 34%;
+  left: 0;
+  float: left;
+  background: url(../
   opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
   -webkit-transition: opacity 0.6s;
   -moz-transition: opacity 0.6s;
   -o-transition: opacity 0.6s;
@@ -184,7 +176,15 @@ body.lb-disable-scrolling {
 .lb-data .lb-close {
   display: block;
   float: right;
-  width: 30px;
+  width: 30px;  width: 34%;
+  left: 0;
+  float: left;
+  background: url(../
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
   height: 30px;
   background: url(../images/close.png) top right no-repeat;
   text-align: right;
